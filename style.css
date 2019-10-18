@@ -68,12 +68,12 @@ ul li img{
     margin-bottom: 20px;
     background: black;
     position: relative;
-    animation: text 4s 1;
+    animation: text 5s 1;
 }
 .text2{
     font-size: 30px;
     color: #ff7999;
-    animation: fondu 4s 1;
+    animation: fondu 5s 1;
 }
 
 .landing-page{
@@ -83,7 +83,7 @@ ul li img{
     
   position: relative;
   overflow: hidden;
-    animation: delaiApparition 4s 1;
+    animation: delaiApparition 6s 1;
 }
 
 
