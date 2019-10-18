@@ -33,7 +33,7 @@ ol li h2{
     color: #e67300;
 }
 ol li:hover{
-    animation: zoomProjets 5s 1;
+    animation: zoomProjets 2s 1;
 }
 ol li img{
     width: 75%;
