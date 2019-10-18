@@ -209,6 +209,7 @@ section h3{
 @keyframes zoomProjets{
     50%{
         transform: scale(0.95);
+        content :"1";
     }
     75%{
         -webkit-filter : blur(4px);
