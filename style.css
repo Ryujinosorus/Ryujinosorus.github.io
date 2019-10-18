@@ -151,10 +151,10 @@ section h3{
 
 @keyframes backgroundAnim{
     0%{
-        background: #000;
+        background: #FFF;
     }
     90%{
-        background: #000;
+        background: #FFF;
     }
 }
 
