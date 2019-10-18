@@ -207,14 +207,8 @@ section h3{
 }
 
 @keyframes zoomProjets{
-    25%{
-        transform: rotate(5deg);
-    }
     50%{
         transform: scale(0.85);
-    }
-    75%{
-        transform: rotate(-5deg);
     }
     
     100%{
