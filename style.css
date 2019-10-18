@@ -1,5 +1,5 @@
 :root {
-  --duraionTransition: brown;
+  --duraionTransition: 5;
 }
 *{
     padding: 0;
@@ -68,12 +68,12 @@ ul li img{
     margin-bottom: 20px;
     background: black;
     position: relative;
-    animation: text 5s 1;
+    animation: text var(--duraionTransition)s 1;
 }
 .text2{
     font-size: 30px;
     color: #ff7999;
-    animation: fondu 5s 1;
+    animation: var(--duraionTransition)s 1;
 }
 
 .landing-page{
