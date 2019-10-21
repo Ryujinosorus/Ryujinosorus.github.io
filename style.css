@@ -101,6 +101,11 @@ body {
     justify-content: center;
     align-content: center;
 }
+#skills h3{
+  text-align:center;
+  font-size:50px;
+  letter-spacing:1px;
+}
 .container{
     position: relative;
     width: 900px;
