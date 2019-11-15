@@ -94,24 +94,19 @@ p{
     font-size: 50px;
     color: #66fcf1;
 }
-#qualites ol li h3{
+#qualites .col-sm-4 h3{
   text-align: center;
   margin-left:60px;
+  color:#eee;
 }
-#qualites ol{
-    list-style: none;
-}
-#qualites ol li{
-    margin-right: 85px;
-    width: 27.7vw;
-    display: inline-block;
-}
-#qualites ol li p{
+#qualites .col-sm-4 p{
     margin-left: 65px;
     text-align: center;
+    color:#eee;
+    margin-bottom: 25px;
 
 }
-#qualites ol li img{
+#qualites .col-sm-4 img{
     margin-left: 50%;
 }
 
@@ -144,14 +139,13 @@ p{
     font-size: 50px;
     color: #66fcf1;
 }
-.container{
+.ligneCompetence{
     position: relative;
-    width: 900px;
     display: flex;
     justify-content: space-around;
     margin: 3% 3%;
 }
-.container .card{
+.ligneCompetence .card{
     position: relative;
     width:250px;
     background: #1f2833;
@@ -164,11 +158,11 @@ p{
     overflow: hidden;
     transition: 0.5s;
 }
-.container .card:hover{
+.ligneCompetence .card:hover{
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.5);
 }
-.container .card::before{
+.ligneCompetence .card::before{
     content: '';
     position: absolute;
     top: 0;
@@ -198,6 +192,7 @@ p{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    color: #eee;
 }
 .percent .number h2{
     color: : #777;
@@ -256,17 +251,6 @@ svg circle:nth-child(2){
     stroke:#66fcf1;
 }
 
-@media (max-width: 880px) {
-  .container{
-    display: inline-block;
-    transform: translate(35%,0%);
-    position: relative;
-
-  }
-  .card{
-    margin-bottom: 50px;
-  }
-}
 /* CITATTION */
 
 #citation q {
@@ -275,6 +259,7 @@ svg circle:nth-child(2){
 	font-size: 60px;
 	font-family: 'Courgette', cursive;
     background-color: #1f2833;
+    color:#eee;
 }
 
 /* PROJETS */
