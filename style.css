@@ -269,6 +269,7 @@ footer{
 	position: fixed;
 	bottom: 0;
 	z-index: -1;
+	margin-top: 5%;
 }
 .footer-distributed{
 	background-color: #292c2f;
