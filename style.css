@@ -266,7 +266,7 @@ svg circle:nth-child(2){
 
 
 footer{
-	position: relative;
+	position: fixed;
 	bottom: 0;
 	z-index: -1;
 }
