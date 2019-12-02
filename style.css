@@ -266,7 +266,7 @@ svg circle:nth-child(2){
 
 
 footer{
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	z-index: -1;
 }
@@ -559,7 +559,6 @@ footer{
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
-   margin-bottom: 100%;
 }
 .timeline-container:before {
   position: absolute;
