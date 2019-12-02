@@ -559,7 +559,7 @@ footer{
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
-   margin-bottom: 10%;
+   margin-bottom: 100%;
 }
 .timeline-container:before {
   position: absolute;
